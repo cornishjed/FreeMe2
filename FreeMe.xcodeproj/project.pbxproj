@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F108AC427EE2ED80058A2BD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F108AC327EE2ED80058A2BD /* Settings.swift */; };
+		5F108AC727F0C8FF0058A2BD /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F108AC627F0C8FF0058A2BD /* Coordinates.swift */; };
+		5F84262727F9FD93002E9D2E /* EventsCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84262627F9FD93002E9D2E /* EventsCalendarManager.swift */; };
+		5F925CA027D11B740051464D /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925C9F27D11B740051464D /* IntroductionView.swift */; };
+		5F925CA227D11BEC0051464D /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CA127D11BEC0051464D /* SetupView.swift */; };
+		5F925CA727D1793E0051464D /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CA627D1793E0051464D /* AppData.swift */; };
+		5F925CA927D3A6B30051464D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CA827D3A6B30051464D /* MainView.swift */; };
+		5F925CAB27D6172F0051464D /* SubmitActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CAA27D6172F0051464D /* SubmitActivityView.swift */; };
+		5F925CAE27D63F380051464D /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CAD27D63F380051464D /* WeatherService.swift */; };
+		5F925CB027D63FBB0051464D /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CAF27D63FBB0051464D /* Weather.swift */; };
+		5F925CB227D63FFD0051464D /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CB127D63FFD0051464D /* WeatherViewModel.swift */; };
+		5F925CF027D8E9A70051464D /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CEF27D8E9A70051464D /* NotificationManager.swift */; };
+		5F925CF227DF6AC20051464D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F925CF127DF6AC20051464D /* DetailView.swift */; };
+		5F9AE46A27D113AB00F4044F /* FreeMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AE46927D113AB00F4044F /* FreeMeApp.swift */; };
+		5F9AE46C27D113AB00F4044F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AE46B27D113AB00F4044F /* ContentView.swift */; };
+		5F9AE46E27D113AC00F4044F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9AE46D27D113AC00F4044F /* Assets.xcassets */; };
+		5F9AE47127D113AC00F4044F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9AE47027D113AC00F4044F /* Preview Assets.xcassets */; };
+		5F9AE47927D1160E00F4044F /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AE47827D1160E00F4044F /* FirestoreManager.swift */; };
+		5F9AE47D27D1177E00F4044F /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9AE47C27D1177E00F4044F /* Activity.swift */; };
+		5F9AE47F27D11A9500F4044F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F9AE47E27D11A9500F4044F /* GoogleService-Info.plist */; };
+		5FD2E83027E60A430018D31C /* Weathers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD2E82F27E60A430018D31C /* Weathers.swift */; };
+		5FD2E83427E8BF700018D31C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD2E83327E8BF700018D31C /* LocationManager.swift */; };
+		849795F2FCB4DBBFA98D97EA /* Pods_FreeMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71387A55FD34DFC1A3CBD3B5 /* Pods_FreeMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B727EDFF44C2505EC8B286C /* Pods-FreeMe2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMe2.release.xcconfig"; path = "Target Support Files/Pods-FreeMe2/Pods-FreeMe2.release.xcconfig"; sourceTree = "<group>"; };
+		1DC67EC53FE03DAE2F0FDC62 /* Pods-FreeMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMe.debug.xcconfig"; path = "Target Support Files/Pods-FreeMe/Pods-FreeMe.debug.xcconfig"; sourceTree = "<group>"; };
+		399947D15DF03917D5B4CDEF /* Pods-FreeMe2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMe2.debug.xcconfig"; path = "Target Support Files/Pods-FreeMe2/Pods-FreeMe2.debug.xcconfig"; sourceTree = "<group>"; };
+		5F108AC327EE2ED80058A2BD /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5F108AC627F0C8FF0058A2BD /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		5F84262627F9FD93002E9D2E /* EventsCalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCalendarManager.swift; sourceTree = "<group>"; };
+		5F925C9F27D11B740051464D /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		5F925CA127D11BEC0051464D /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		5F925CA627D1793E0051464D /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		5F925CA827D3A6B30051464D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5F925CAA27D6172F0051464D /* SubmitActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitActivityView.swift; sourceTree = "<group>"; };
+		5F925CAD27D63F380051464D /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		5F925CAF27D63FBB0051464D /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		5F925CB127D63FFD0051464D /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		5F925CEF27D8E9A70051464D /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		5F925CF127DF6AC20051464D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5F925D0F27E0D31F0051464D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5F9AE46627D113AA00F4044F /* FreeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9AE46927D113AB00F4044F /* FreeMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMeApp.swift; sourceTree = "<group>"; };
+		5F9AE46B27D113AB00F4044F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F9AE46D27D113AC00F4044F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F9AE47027D113AC00F4044F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F9AE47827D1160E00F4044F /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		5F9AE47C27D1177E00F4044F /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		5F9AE47E27D11A9500F4044F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FD2E82F27E60A430018D31C /* Weathers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weathers.swift; sourceTree = "<group>"; };
+		5FD2E83327E8BF700018D31C /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		71387A55FD34DFC1A3CBD3B5 /* Pods_FreeMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC495BB684077E46267C9C4 /* Pods-FreeMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMe.release.xcconfig"; path = "Target Support Files/Pods-FreeMe/Pods-FreeMe.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F9AE46327D113AA00F4044F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849795F2FCB4DBBFA98D97EA /* Pods_FreeMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DFB6C77674D6F8075CCBE9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				399947D15DF03917D5B4CDEF /* Pods-FreeMe2.debug.xcconfig */,
+				1B727EDFF44C2505EC8B286C /* Pods-FreeMe2.release.xcconfig */,
+				1DC67EC53FE03DAE2F0FDC62 /* Pods-FreeMe.debug.xcconfig */,
+				9EC495BB684077E46267C9C4 /* Pods-FreeMe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F9AE45D27D113AA00F4044F = {
+			isa = PBXGroup;
+			children = (
+				5F9AE47E27D11A9500F4044F /* GoogleService-Info.plist */,
+				5F9AE46827D113AB00F4044F /* FreeMe */,
+				5F9AE46727D113AA00F4044F /* Products */,
+				4DFB6C77674D6F8075CCBE9F /* Pods */,
+				84A816A64F693D930882F5AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F9AE46727D113AA00F4044F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F9AE46627D113AA00F4044F /* FreeMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9AE46827D113AB00F4044F /* FreeMe */ = {
+			isa = PBXGroup;
+			children = (
+				5F925D0F27E0D31F0051464D /* Info.plist */,
+				5F9AE46927D113AB00F4044F /* FreeMeApp.swift */,
+				5F9AE47B27D1176C00F4044F /* Models */,
+				5F9AE47A27D1164400F4044F /* Views */,
+				5F9AE47727D115F900F4044F /* Managers */,
+				5F9AE46D27D113AC00F4044F /* Assets.xcassets */,
+				5F9AE46F27D113AC00F4044F /* Preview Content */,
+			);
+			path = FreeMe;
+			sourceTree = "<group>";
+		};
+		5F9AE46F27D113AC00F4044F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5F9AE47027D113AC00F4044F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F9AE47727D115F900F4044F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5F9AE47827D1160E00F4044F /* FirestoreManager.swift */,
+				5F925CAD27D63F380051464D /* WeatherService.swift */,
+				5F925CEF27D8E9A70051464D /* NotificationManager.swift */,
+				5FD2E83327E8BF700018D31C /* LocationManager.swift */,
+				5F108AC327EE2ED80058A2BD /* Settings.swift */,
+				5F84262627F9FD93002E9D2E /* EventsCalendarManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5F9AE47A27D1164400F4044F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F9AE46B27D113AB00F4044F /* ContentView.swift */,
+				5F925C9F27D11B740051464D /* IntroductionView.swift */,
+				5F925CA827D3A6B30051464D /* MainView.swift */,
+				5F925CA127D11BEC0051464D /* SetupView.swift */,
+				5F925CAA27D6172F0051464D /* SubmitActivityView.swift */,
+				5F925CF127DF6AC20051464D /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F9AE47B27D1176C00F4044F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F9AE47C27D1177E00F4044F /* Activity.swift */,
+				5F925CA627D1793E0051464D /* AppData.swift */,
+				5F925CAF27D63FBB0051464D /* Weather.swift */,
+				5FD2E82F27E60A430018D31C /* Weathers.swift */,
+				5F925CB127D63FFD0051464D /* WeatherViewModel.swift */,
+				5F108AC627F0C8FF0058A2BD /* Coordinates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84A816A64F693D930882F5AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71387A55FD34DFC1A3CBD3B5 /* Pods_FreeMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F9AE46527D113AA00F4044F /* FreeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9AE47427D113AC00F4044F /* Build configuration list for PBXNativeTarget "FreeMe" */;
+			buildPhases = (
+				25CCE39DEEA229E369079E2A /* [CP] Check Pods Manifest.lock */,
+				5F9AE46227D113AA00F4044F /* Sources */,
+				5F9AE46327D113AA00F4044F /* Frameworks */,
+				5F9AE46427D113AA00F4044F /* Resources */,
+				87E3310EF840CC675C8295C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeMe;
+			productName = FreeMe2;
+			productReference = 5F9AE46627D113AA00F4044F /* FreeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F9AE45E27D113AA00F4044F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5F9AE46527D113AA00F4044F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F9AE46127D113AA00F4044F /* Build configuration list for PBXProject "FreeMe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F9AE45D27D113AA00F4044F;
+			productRefGroup = 5F9AE46727D113AA00F4044F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F9AE46527D113AA00F4044F /* FreeMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F9AE46427D113AA00F4044F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9AE47127D113AC00F4044F /* Preview Assets.xcassets in Resources */,
+				5F9AE46E27D113AC00F4044F /* Assets.xcassets in Resources */,
+				5F9AE47F27D11A9500F4044F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25CCE39DEEA229E369079E2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E3310EF840CC675C8295C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeMe/Pods-FreeMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeMe/Pods-FreeMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeMe/Pods-FreeMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F9AE46227D113AA00F4044F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F925CAE27D63F380051464D /* WeatherService.swift in Sources */,
+				5FD2E83027E60A430018D31C /* Weathers.swift in Sources */,
+				5F925CB227D63FFD0051464D /* WeatherViewModel.swift in Sources */,
+				5F925CA027D11B740051464D /* IntroductionView.swift in Sources */,
+				5F925CF227DF6AC20051464D /* DetailView.swift in Sources */,
+				5F925CA927D3A6B30051464D /* MainView.swift in Sources */,
+				5F925CB027D63FBB0051464D /* Weather.swift in Sources */,
+				5F9AE46C27D113AB00F4044F /* ContentView.swift in Sources */,
+				5F925CF027D8E9A70051464D /* NotificationManager.swift in Sources */,
+				5F9AE47927D1160E00F4044F /* FirestoreManager.swift in Sources */,
+				5F84262727F9FD93002E9D2E /* EventsCalendarManager.swift in Sources */,
+				5F925CA727D1793E0051464D /* AppData.swift in Sources */,
+				5F925CAB27D6172F0051464D /* SubmitActivityView.swift in Sources */,
+				5F108AC727F0C8FF0058A2BD /* Coordinates.swift in Sources */,
+				5F9AE47D27D1177E00F4044F /* Activity.swift in Sources */,
+				5F108AC427EE2ED80058A2BD /* Settings.swift in Sources */,
+				5F925CA227D11BEC0051464D /* SetupView.swift in Sources */,
+				5FD2E83427E8BF700018D31C /* LocationManager.swift in Sources */,
+				5F9AE46A27D113AB00F4044F /* FreeMeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F9AE47227D113AC00F4044F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = /tmp/FreeMe.dst;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FreeMe;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LSApplicationQueriesSchemes = Array;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F9AE47327D113AC00F4044F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = FreeMe;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LSApplicationQueriesSchemes = Array;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F9AE47527D113AC00F4044F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC67EC53FE03DAE2F0FDC62 /* Pods-FreeMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreeMe/Preview Content\"";
+				DEVELOPMENT_TEAM = SRA563UHM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreeMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FreeMe;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This application needs to access the calendar";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your current location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jed.powell.FreeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5F9AE47627D113AC00F4044F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EC495BB684077E46267C9C4 /* Pods-FreeMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FreeMe/Preview Content\"";
+				DEVELOPMENT_TEAM = SRA563UHM6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FreeMe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FreeMe;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This application needs to access the calendar";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your current location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jed.powell.FreeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F9AE46127D113AA00F4044F /* Build configuration list for PBXProject "FreeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9AE47227D113AC00F4044F /* Debug */,
+				5F9AE47327D113AC00F4044F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9AE47427D113AC00F4044F /* Build configuration list for PBXNativeTarget "FreeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9AE47527D113AC00F4044F /* Debug */,
+				5F9AE47627D113AC00F4044F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F9AE45E27D113AA00F4044F /* Project object */;
+}
